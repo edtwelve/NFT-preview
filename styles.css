@@ -53,6 +53,23 @@ img {
     object-fit: cover;
 }
 
+.imagen {
+    position: relative;
+}
+
+.viewIcon {
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+}
+
+.image-hover {
+    width: 100%;
+    opacity: 0;
+    padding: 9em;
+    transition: opacity 0.3s ease;
+}
+
 .price-time {
     justify-content: space-between;
 }
