@@ -1,0 +1,17 @@
+main {
+    max-width: 25em;
+}
+
+article p {
+    font-size: 1.2em;
+}
+
+span:hover, h1:hover, img:hover {
+    color: hsl(178, 100%, 50%);
+    cursor: pointer;
+}
+
+.imagen:hover .image-hover {
+    opacity: 1;
+    background-color: rgba(0, 255, 247, 0.5);
+}
